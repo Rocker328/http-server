@@ -1,12 +1,12 @@
-<html><head></head> <body><canvas id="canvas" style="border:1px solid #000000;" <="" canvas="">
+<html><head></head> <body><canvas id="canvas" style="border:1px solid #00FF00;" <="" canvas="">
 <script>
 const ROWS = 20;
 const COLS = 28;
 const CANVAS_HEIGHT = 500;
 const CANVAS_WIDTH = 700;
 const SQUARE = 25;
-const COLOR = "black";
-const FOOD = 4;
+const COLOR = "green";
+const FOOD = 2;
 const RIGHT = 5;
 const LEFT = 6;
 const UP = 7;
@@ -121,7 +121,7 @@ class Snode {
 var board;
 
 var lastFrameTimeMS = 0;
-var maxFPS = 9;
+var maxFPS = 7;
 var key = RIGHT;
 var RUNNING = false;
 function mainLoop(timestamp) {
