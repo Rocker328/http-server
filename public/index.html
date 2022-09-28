@@ -65,7 +65,7 @@ class Board {
         }
     }
     drawFood(row, col) {
-        this.fill.fillStyle = "green";
+        this.fill.fillStyle = "red";
         this.fill.fillRect(col * 25 + 1, row * 25 + 1, this.SQUARE - 2, this.SQUARE - 2);
     }
     update(orientation) {
